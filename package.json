@@ -61,6 +61,7 @@
     "popper.js": "^1.14.4",
     "postcss-loader": "^2.1.6",
     "react": "^16.4.2",
+    "react-background-slideshow": "^1.0.4",
     "react-dom": "^16.4.2",
     "react-video-cover": "^1.2.2",
     "sass-loader": "^7.1.0",

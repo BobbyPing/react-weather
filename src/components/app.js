@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Titles from "./Titles"; 
 import Form from "./Form";
 import Weather from "./Weather";
-
+import Image from "./Image";
 
 const API_KEY = "c88424defc681cc8ddf01072a4fca756";
 
@@ -50,23 +50,25 @@ export default class App extends Component {
           <Titles />
         </div>
         <div className = "wrapper">
-        <div className = "image">
-            <h1>test</h1>
-        </div>          
-        <div className = "weather">
-        <div className = "form">
-          <Form getWeather={this.getWeather}/>
-        </div>
-        <div className ="readout">
-          <Weather temperature={this.state.temperature}
-          city={this.state.city}
-          country={this.state.country}
-          humidity={this.state.humidity}
-          description={this.state.description}
-          error={this.state.error}
-          />
-        </div>
-        </div>
+          <div className = "image_wrapper">
+            <div className = "image">
+              <Image />
+            </div>
+          </div>          
+          <div className = "weather">
+            <div className = "form">
+              <Form getWeather={this.getWeather}/>
+            </div>
+            <div className ="readout">
+              <Weather temperature={this.state.temperature}
+              city={this.state.city}
+              country={this.state.country}
+              humidity={this.state.humidity}
+              description={this.state.description}
+              error={this.state.error}
+              />
+            </div>
+          </div>
         </div>
       </div>
     );

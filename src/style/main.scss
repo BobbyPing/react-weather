@@ -38,26 +38,38 @@ body {
     grid-template-columns: auto auto;
 }
 
-.image {
-    background-color: white;
+.image_wrapper {
     width: 500px;
     height: 500px;
-    border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 2px solid white;
 }
+
+.image {
+    height:500px;
+    width:500px;
+    position: fixed;
+}
+
+.box-gallery .bg-img img {
+    width: 500px;
+    height: 500px;
+}
+
+
+
 
 .weather { 
     display: flex;
     justify-content: center;
     width: 500px;
     height: 500px;
-    background-color: white;
-    border-radius: 25px;
-    border: 2px solid #73AD21;
+    background-color: gray;
+    border: 2px solid white;
 }
 
 .form {
     padding-top: 50px;
+    position: fixed;
 }
 
 .readout {
@@ -65,4 +77,5 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 300px;
 }
