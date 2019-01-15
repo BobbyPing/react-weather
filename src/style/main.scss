@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%; // 1rem is 10px
+    background-color: black;
 }
 
 *,
@@ -25,4 +26,43 @@ body {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+    background: black
+}
+
+.header {
+    color: orange;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.image {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+
+.weather { 
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+
+.form {
+    padding-top: 50px;
+}
+
+.readout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
