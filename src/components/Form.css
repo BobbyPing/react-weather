@@ -1,0 +1,39 @@
+.form {
+    margin-top: 50px;
+    position: absolute;
+}
+
+.form input{
+    border: 0;
+    margin-left: 10px;
+    outline: 0;
+    background: transparent;
+    color: #faf0e6;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #faf0e6;
+    }
+
+::placeholder {
+    color: #faf0e6;
+}
+
+.form button{
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 5px 19px;
+    border-radius: 2px;
+    border: none;
+    color: #faf0e6;
+    background-color: rgba(0, 0, 0, 0.30);
+    transition: .75s;
+    
+}
+
+.form button:hover{
+    cursor: pointer;
+}
+
+.form button:active{
+    outline: none;
+    border: none;
+}

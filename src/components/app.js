@@ -5,6 +5,8 @@ import Form from "./Form";
 import Weather from "./Weather";
 import Image from "./Image";
 
+import { Random } from 'react-animated-text';
+
 const API_KEY = "c88424defc681cc8ddf01072a4fca756";
 
 export default class App extends Component {
@@ -59,15 +61,19 @@ export default class App extends Component {
             <div className = "form">
               <Form getWeather={this.getWeather}/>
             </div>
+            
             <div className ="readout">
-              <Weather temperature={this.state.temperature}
-              city={this.state.city}
-              country={this.state.country}
-              humidity={this.state.humidity}
-              description={this.state.description}
-              error={this.state.error}
-              />
+                <Weather 
+                  temperature={this.state.temperature}
+                  city={this.state.city}
+                  country={this.state.country}
+                  humidity={this.state.humidity}
+                  description={this.state.description}
+                  error={this.state.error}
+                />
+
             </div>
+            
           </div>
         </div>
       </div>
