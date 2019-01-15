@@ -9,7 +9,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 body {
@@ -50,32 +50,33 @@ body {
 }
 
 .image_wrapper {
-    width: 600px;
+    width: 700px;
     height: 500px;
-    border: 2px solid rgba(255, 255, 255, 0.50);
+    border: 1px solid rgba(255, 255, 255, 0.60);
 }
 
 .image {
     height:500px;
-    width:600px;
+    width:700px;
     position:relative;
 }
 
 .box-gallery .bg-img img {
-    width: 600px;
+    width: 700px;
     height: 500px;
+    opacity: .90;
 }
 
 .weather { 
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: 500px;
     height: 500px;
     background: #34e89e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    border: 2px solid rgba(255, 255, 255, 0.50);
+    border: 1px solid rgba(255, 255, 255, 0.60);
 }
 
 
@@ -84,7 +85,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 60px;
-    font-size: 1.5rem;
+    margin-right: 200px;
+    font-size: 2.0rem;
     color: #faf0e6;
 }

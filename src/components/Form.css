@@ -9,7 +9,7 @@
     outline: 0;
     background: transparent;
     color: #faf0e6;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     border-bottom: 1px solid #faf0e6;
     }
 
@@ -19,21 +19,16 @@
 
 .form button{
     margin-left: 10px;
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px 19px;
     border-radius: 2px;
     border: none;
     color: #faf0e6;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(255, 255, 255, 0.15);
     transition: .75s;
     
 }
 
 .form button:hover{
     cursor: pointer;
-}
-
-.form button:active{
-    outline: none;
-    border: none;
 }
